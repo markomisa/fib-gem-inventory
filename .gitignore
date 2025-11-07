@@ -16,14 +16,18 @@ Makefile
 *.so
 *.dylib
 
-# Editor/IDE generated files
-############################
+# Operating System and Editor Files
+###################################
+# macOS specific files
+.DS_Store
+.localized
+.Trashes
+
+# Windows Thumbnails
+Thumbs.db
+
 # Visual Studio Code
 .vscode/
-
-# Visual Studio
-*.VC.db
-*.VC.opendb
 
 # IntelliJ/CLion
 .idea/
